@@ -8,6 +8,8 @@ numpy = "*"
 pillow = "*"
 flask = "*"
 tensorflow = "*"
+google-cloud-firestore = "*"  # Menambahkan Firestore
+requests = "*"               # Menambahkan requests
 
 [dev-packages]
 
