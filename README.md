@@ -1,4 +1,4 @@
-# ml-food-classification
+# ml-FruitGuard-Classification
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
@@ -8,7 +8,7 @@
 ![Docker Version](https://img.shields.io/docker/v/putuwaw/mammates-food-classification/latest?style=for-the-badge)
 ![Docker Pulls](https://img.shields.io/docker/pulls/putuwaw/mammates-food-classification?style=for-the-badge)
 
-Food Classification using Convolutional Neural Network (CNN) and deployed using TensorFlow Serving.
+FruitGuard Classification using Convolutional Neural Network (CNN) and deployed using TensorFlow Serving.
 
 Notebook: [MamMates Food Classification](https://colab.research.google.com/github/MamMates/ml-food-classification/blob/main/MamMates_Food_Classification.ipynb)
 
@@ -16,20 +16,12 @@ Dataset: [MamMates Dataset](https://drive.google.com/drive/folders/1pTTSWZB4BYkS
 
 ## Features 💡
 
-Using Mammates Food Classification, you can categorize food images into 10 classes.
+Using Mammates fruits Classification, you can categorize fruits images into 2 classes.
 
 | Class | Label        |
 | ----- | ------------ |
-| 0     | bika_ambon   |
-| 1     | dadar_gulung |
-| 2     | donat        |
-| 3     | kue_cubit    |
-| 4     | kue_klepon   |
-| 5     | kue_lapis    |
-| 6     | kue_lumpur   |
-| 7     | kue_risoles  |
-| 8     | putu_ayu     |
-| 9     | roti         |
+| 0     | Fresh_Fruits  |
+| 1     | Rotten_Fruits |
 
 ## Prerequisites 📋
 
