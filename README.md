@@ -26,8 +26,8 @@ Using Mammates fruits Classification, you can categorize fruits images into 2 cl
 
 ## Prerequisites 📋
 
-- [TensorFlow](https://www.tensorflow.org/) 2.14.0 or higher
-- [Docker](https://www.docker.com/) 24.0.7 or higher
+- [TensorFlow](https://www.tensorflow.org/) 2.17.1 or higher
+- [Docker](https://www.docker.com/) 3.11 or higher
 
 ## Usage ✨
 
