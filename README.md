@@ -10,9 +10,10 @@
 
 FruitGuard Classification using Convolutional Neural Network (CNN) and deployed using TensorFlow Serving.
 
-Notebook: [FruitGuard Classification]([https://colab.research.google.com/github/MamMates/ml-food-classification/blob/main/MamMates_Food_Classification.ipynb](https://colab.research.google.com/drive/1eWbNPGPvpQmxhaxegwuJDD2fQsf2C3ka?usp=sharing ))
+## FruitGuard Classification
 
-Dataset: [FruitGuard Dataset]([https://drive.google.com/drive/folders/1pTTSWZB4BYkS_rHxJ8ksni2A_fBt1i6e?usp=drive_link](https://drive.google.com/file/d/16YAwpBp0thfyoHIQLi_s6dOTVSCJpGwf/view?usp=sharing))
+- **Notebook:** [FruitGuard Classification](https://colab.research.google.com/drive/1eWbNPGPvpQmxhaxegwuJDD2fQsf2C3ka?usp=sharing)
+- **Dataset:** [FruitGuard Dataset](https://drive.google.com/file/d/16YAwpBp0thfyoHIQLi_s6dOTVSCJpGwf/view?usp=sharing)
 
 ## Features 💡
 
