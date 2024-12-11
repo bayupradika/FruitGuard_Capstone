@@ -2,13 +2,10 @@
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 [![Google Colab](https://img.shields.io/badge/open_in_colab-blue?style=for-the-badge&logo=googlecolab&color=blue&labelColor=525252)](https://colab.research.google.com/github/MamMates/ml-food-classification/blob/main/MamMates_Food_Classification.ipynb)
 ![LICENSE](https://img.shields.io/github/license/MamMates/ml-food-classification?style=for-the-badge)
-![Docker Version](https://img.shields.io/docker/v/putuwaw/mammates-food-classification/latest?style=for-the-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/putuwaw/mammates-food-classification?style=for-the-badge)
 
-FruitGuard Classification using Convolutional Neural Network (CNN) and deployed using TensorFlow Serving.
+FruitGuard Classification using Convolutional Neural Network (CNN).
 
 ## FruitGuard Classification
 
@@ -27,44 +24,7 @@ Using Mammates fruits Classification, you can categorize fruits images into 2 cl
 ## Prerequisites 📋
 
 - [TensorFlow](https://www.tensorflow.org/) 2.17.1 or higher
-- [Docker](https://www.docker.com/) 3.11 or higher
 
-## Usage ✨
-
-If you already have Docker installed, you only need to run the following command:
-
-- Pull the image from Docker Hub:
-
-```bash
-docker pull putuwaw/mammates-food-classification
-```
-
-- Run the image:
-
-```bash
-docker run -p 8501:8501 --name ml-clf putuwaw/mammates-food-classification
-```
-
-- You can check that the model is already running by opening the browser and go to http://localhost:8501/v1/models/food_clf
-
-- To do prediction, you can use the following command:
-
-```bash
-curl -s https://raw.githubusercontent.com/MamMates/ml-food-classification/main/example.json | curl -X POST -d @- http://localhost:8501/v1/models/food_clf:predict
-```
-
-- You will get the following response:
-
-```json
-{
-  "predictions": [
-    [
-      6.28405522e-11, 7.40732e-6, 0.998946607, 1.49191326e-8, 0.000139753625,
-      2.86315444e-5, 0.000863699941, 6.22894277e-7, 1.15933371e-5, 1.64414064e-6
-    ]
-  ]
-}
-```
 
 ## Development 💻
 
