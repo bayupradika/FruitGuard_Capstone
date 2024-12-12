@@ -1,0 +1,6 @@
+[submodule "Cloud-Computing"]
+	path = Cloud-Computing
+	url = https://github.com/Afiffarhanni/Cloud-Computing-
+[submodule "Machine-Learning"]
+	path = Machine-Learning
+	url = https://github.com/bayupradika/Machine-Learning
