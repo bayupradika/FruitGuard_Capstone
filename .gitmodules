@@ -4,3 +4,6 @@
 [submodule "Machine-Learning"]
 	path = Machine-Learning
 	url = https://github.com/bayupradika/Machine-Learning
+[submodule "Mobile-Development"]
+	path = Mobile-Development
+	url = https://github.com/zatryandyakbar/fruits-guard
